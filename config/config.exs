@@ -13,10 +13,10 @@ config :nutrition,
 # Configures the endpoint
 config :nutrition, NutritionWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "e/hKI2eokKqturZ6x3N8E7XYXV4TQWydCQZosJtjh1npuEeXyu/Kv0FgS3XEQqlD",
+  secret_key_base: "o/7QNdWRpwNXyGmY76OQqXwW74qzUev//z78r3zZNMulCQf11lEG+NKPcbU+HUGi",
   render_errors: [view: NutritionWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Nutrition.PubSub,
-  live_view: [signing_salt: "p6oTU0xO"]
+  live_view: [signing_salt: "YDVIDuJc"]
 
 # Configures Elixir's Logger
 config :logger, :console,

@@ -7,7 +7,7 @@ defmodule NutritionWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_nutrition_key",
-    signing_salt: "3pACDddL"
+    signing_salt: "YAiC0M6r"
   ]
 
   socket "/socket", NutritionWeb.UserSocket,
